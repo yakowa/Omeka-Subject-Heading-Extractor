@@ -3,7 +3,7 @@
 
 # Omeka Subject Heading Extractor
 
-Omeka Subject Heading Extractor is a node.js application for retrieving the all subject headings from an Omeka website.
+Omeka Subject Heading Extractor is a node.js application for retrieving all the subject headings from an Omeka website.
 This application uses the Omeka API to get all items which it then formats into a custom JSON object. This object is then searched through and then all duplicates are discarded.
 
 
@@ -14,7 +14,7 @@ This application uses the Omeka API to get all items which it then formats into 
 
 ### How to run
 
-Simply run the `run.bat` script, this will open your terminal execuing the script on Node.JS.
+Simply run the `run.bat` script, this will open your terminal executing the script on Node.JS.
 
 Alternatively, you can simply run
 ```bash
@@ -37,7 +37,7 @@ The program will then return non duplicated values related* to your query.
 
 * You must have Node.JS installed.
 
-Once Node.JS is installed please run the following to install the necessary dependecies.
+Once Node.JS is installed please run the following to install the necessary dependencies.
 ```bash
 npm install
 ```
